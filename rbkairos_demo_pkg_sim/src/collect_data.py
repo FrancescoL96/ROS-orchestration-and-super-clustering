@@ -375,12 +375,12 @@ if __name__ == '__main__':
 	try:	
 		# Data collection/loading phase
 		# We either load the graph to cluster, or collect the data and graph it before clustering
-		load_data()
-		#collect_data()
-		#graph_data()
+		# load_data()
+		collect_data()
+		graph_data()
 		
 		# Saves the collected data
-		#dump_data()
+		dump_data()
 		
 		# Alg A --- Cuts the N lowest cost edges from the Maximum Spanning Tree of the graph, uses DFS, Kruskal
 		#remove_zero_connections_nodes()
