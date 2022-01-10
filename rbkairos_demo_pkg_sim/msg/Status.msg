@@ -1,0 +1,3 @@
+string base_status
+string arm_status
+string gripper_status
